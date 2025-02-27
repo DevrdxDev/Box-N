@@ -8,7 +8,7 @@ Run Boxvidra Native :
 ```boxvidra-native --reinstall``` To Reinstall Boxvidra Proot
 ```boxvidra-native --uninstall``` To Uninstall Boxvidra Native
 
-Run Boxvidra Native :
+Run Boxvidra Proot :
 ```boxvidra-proot``` To run Boxvidra Proot
 ```boxvidra-proot --update``` To Update Boxvidra Proot
 ```boxvidra-proot --reinstall``` To Reinstall Boxvidra Proot
