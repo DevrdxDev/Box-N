@@ -590,7 +590,7 @@ dialog_menu "\Z6Select A Shortcut To Install (1/3)" "" \
 
 download_and_extract() {
     app_name=$1
-    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Apps-Shortcuts/$app_name.tar.xz"
+    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/devrdxdev/Box-N/releases/download/Shortcuts-Apps/$app_name.tar.xz"
     tar -xJf "/data/data/com.termux/files/home/$app_name.tar.xz" -C /data/data/com.termux/files/home
     cd "$app_name"
     mv "$app_name.desktop" ~/Desktop
@@ -626,7 +626,7 @@ dialog_menu "\Z6Select A Shortcut To Install (2/3)" "" \
 
 download_and_extract() {
     app_name=$1
-    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Apps-Shortcuts/$app_name.tar.xz"
+    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/devrdxdev/Box-N/releases/download/Shortcuts-Apps/$app_name.tar.xz"
     tar -xJf "/data/data/com.termux/files/home/$app_name.tar.xz" -C /data/data/com.termux/files/home
     cd "$app_name"
     mv "$app_name.desktop" ~/Desktop
@@ -662,7 +662,7 @@ dialog_menu "\Z6Select A Shortcut To Install (3/3)" "" \
 
 download_and_extract() {
     app_name=$1
-    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Apps-Shortcuts/$app_name.tar.xz"
+    wget -q --show-progress -O "$app_name.tar.xz" "https://github.com/devrdxdev/Box-N/releases/download/Shortcuts-Apps/$app_name.tar.xz"
     tar -xJf "/data/data/com.termux/files/home/$app_name.tar.xz" -C /data/data/com.termux/files/home
     cd "$app_name"
     mv "$app_name.desktop" ~/Desktop
