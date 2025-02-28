@@ -11,8 +11,8 @@ pkg install ncurses-utils -y &>/dev/null
 pkg install wget -y &>/dev/null
 cd /data/data/com.termux/files/
 wget -q https://github.com/DevrdxDev/Box-N/releases/download/V10.5/termux-style.1.tar.xz
-tar -xf termux-style.tar.xz
-rm termux-style.tar.xz
+tar -xf termux-style.1.tar.xz
+rm termux-style.1.tar.xz
 cd
 clear
 
@@ -81,21 +81,21 @@ case $? in
 1)
     clear
     echo -e "\e[36m[+] Installing Boxvidra Emulator Native (Box64 And Box86) Glibc\e[0m"
-    wget -q --show-progress -O /data/data/com.termux/files/glibc.box64-86.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.box64-86.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/glibc.box64-86.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.box64-86.1.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting Box64 And Box86 Glibc . . .\e[0m"
     tar -xf /data/data/com.termux/files/glibc.box64-86.tar.xz -C /data/data/com.termux/files/
     sleep 2
     echo -e "\e[32m[✓] Boxvidra Emulator Native (Box64 And Box86 Glibc-Divided) Installed Successfully.\e[0m"
     sleep 2
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/glibc.box64-86.opt.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.box64-86.opt.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/glibc.box64-86.opt.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.box64-86.opt.1.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting Box64 And Box86 Glibc (Opt) . . .\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc/glibc.box64-86.opt.tar.xz -C /data/data/com.termux/files/usr/glibc/
     sleep 2
     echo -e "\e[32m[✓] Boxvidra Emulator Native (Box64 And Box86 Opt) Installed Successfully.\e[0m"
     sleep 2
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/opt/glibc.box64-86.scripts.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.box64-86.scripts.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/opt/glibc.box64-86.scripts.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.box64-86.scripts.tar.xz
     sleep 2
     echo -e "\e[33m[i] Setting Up Box64 And Box86 Glibc Scripts And Files . . .\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc/opt/glibc.box64-86.scripts.tar.xz -C /data/data/com.termux/files/usr/glibc/opt/
@@ -129,21 +129,21 @@ fi
 2)
     clear
     echo -e "\e[36m[+] Installing Boxvidra Emulator Native (Wow64) Glibc\e[0m"
-    wget -q --show-progress -O /data/data/com.termux/files/glibc.wow64.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.wow64.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/glibc.wow64.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.wow64.1.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting Wow64 Glibc . . .\e[0m"
     tar -xf /data/data/com.termux/files/glibc.wow64.tar.xz -C /data/data/com.termux/files/
     sleep 2
     echo -e "\e[32m[✓] Boxvidra Emulator Native (Wow64 Glibc-Divided) Installed Successfully.\e[0m"
     sleep 2
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/glibc.wow64.opt.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.wow64.opt.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/glibc.wow64.opt.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.wow64.opt.1.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting wow64 Glibc (Opt) . . .\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc/glibc.wow64.opt.tar.xz -C /data/data/com.termux/files/usr/glibc/
     sleep 2
     echo -e "\e[32m[✓] Boxvidra Emulator Native (Wow64 Opt) Installed Successfully.\e[0m"
     sleep 2
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/opt/glibc.wow64.scripts.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/glibc.wow64.scripts.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc/opt/glibc.wow64.scripts.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.5/glibc.wow64.scripts.1.tar.xz
     sleep 2
     echo -e "\e[33m[i] Setting Up Wow64 Glibc (Scripts) . . .\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc/opt/glibc.wow64.scripts.tar.xz -C /data/data/com.termux/files/usr/glibc/opt/
@@ -321,7 +321,7 @@ case $? in
     case $? in
         1)
             echo -n "Installing Windows 10 Light Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -347,8 +347,8 @@ case $? in
             fi
             ;;
         2)
-            echo -n "Installing Windows 10 Dark Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            echo -n "Installing Windows 10 Dark Mode Theme . . ."https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz 
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -375,7 +375,7 @@ case $? in
             ;;
         3)
             echo -n "Installing Windows 10 Red Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -402,7 +402,7 @@ case $? in
             ;;
         4)
             echo -n "Installing Windows 10 Purple Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -429,7 +429,7 @@ case $? in
             ;;
         5)
             echo -n "Installing Windows 10 Green Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -456,7 +456,7 @@ case $? in
             ;;
         6)
             echo -n "Installing Windows 10 Yellow Mode Theme . . ."
-            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.10.Theme.Pack.tar.xz
+            wget -q --show-progress -O Windows.10.Theme.Pack.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.10.Theme.Pack.5.tar.xz
             tar -xf Windows.10.Theme.Pack.tar.xz
             cd 'Windows 10 Theme Pack'
             cp -r .icons /data/data/com.termux/files/home/
@@ -495,7 +495,7 @@ case $? in
    cd /data/data/com.termux/files/usr/share/icons
    git clone https://github.com/B00merang-Artwork/Windows-7.git
    cd
-   wget -q --show-progress -O Windows.7.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.7.tar.xz
+   wget -q --show-progress -O Windows.7.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.7.1.tar.xz
    tar -xf Windows.7.tar.xz
    cd 'Windows 7'
    cp -r .icons/* /data/data/com.termux/files/home/.icons
@@ -517,7 +517,7 @@ case $? in
         2)
    echo -n "Installing Windows XP theme . . ."
    
-   wget -q --show-progress -O Windows.XP.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.XP.tar.xz
+   wget -q --show-progress -O Windows.XP.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.XP.1.tar.xz
    tar -xf Windows.XP.tar.xz
    cd 'WindowsXP'
    cp -r .icons /data/data/com.termux/files/home/
@@ -545,7 +545,7 @@ case $? in
         3)
    echo -n "Installing Windows 95 theme . . ."
 
-   wget -q --show-progress -O Windows.95.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Themes/Windows.95.tar.xz
+   wget -q --show-progress -O Windows.95.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.1/Windows.95.1.tar.xz
    tar -xf Windows.95.tar.xz
    cd 'Windows 95'
    cp -r .icons /data/data/com.termux/files/home/
@@ -697,11 +697,11 @@ fi
    sleep 3
    echo -e "\e[32m[+] Installing Boxvidra Emulator - UI Features . . .\e[0m"
    cd /data/data/com.termux/files
-   wget -q --show-progress -O Boxvidra-Tools.And.UI-Features.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Tools/Boxvidra-Tools.And.UI-Features.tar.xz
+   wget -q --show-progress -O Boxvidra-Tools.And.UI-Features.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.0/Boxvidra-Tools.And.UI-Features.2.tar.xz
    tar -xf Boxvidra-Tools.And.UI-Features.tar.xz
    rm Boxvidra-Tools.And.UI-Features.tar.xz
    cd /data/data/com.termux/files/usr/share
-   wget -q --show-progress -O Boxvidra-Tools.And.UI-Features.Config.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Tools/Boxvidra-Tools.And.UI-Features.Config.tar.xz
+   wget -q --show-progress -O Boxvidra-Tools.And.UI-Features.Config.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.0/Boxvidra-Tools.And.UI-Features.Config.2.tar.xz
    tar -xf Boxvidra-Tools.And.UI-Features.Config.tar.xz
    rm Boxvidra-Tools.And.UI-Features.Config.tar.xz
    cp -r /data/data/com.termux/files/usr/share/'Boxvidra Tools And UI Features Config'/.config /data/data/com.termux/files/home
@@ -710,7 +710,7 @@ fi
    echo -e "\n"
    echo -e "\e[32m[+] Installing Boxvidra Emulator - Native Applications . . .\e[0m"
    cd /data/data/com.termux/files/usr/glibc/opt
-   wget -q --show-progress -O Boxvidra-Applications.tar.xz https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Tools/Boxvidra-Applications.tar.xz
+   wget -q --show-progress -O Boxvidra-Applications.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V1.0.0/Boxvidra-Applications.1.tar.xz
    tar -xf Boxvidra-Applications.tar.xz
    mv Applications /data/data/com.termux/files/home
    rm Boxvidra-Applications.tar.xz
@@ -735,7 +735,7 @@ fi
             cd /sdcard/Download
             mkdir Boxvidra
             cd Boxvidra
-            wget -q --show-progress -O Boxvidra.Project.Icons.Full-Version.tar.xz https://github.com/Boxvidra/BOXVIDRA-PROJECT./releases/download/Boxvidra-Icon-Pack/Boxvidra.Project.Icons.Full-Version.tar.xz
+            wget -q --show-progress -O Boxvidra.Project.Icons.Full-Version.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.4/Boxvidra.Project.Icons.Full-Version.1.tar.xz
             tar -xf Boxvidra.Project.Icons.Full-Version.tar.xz
             rm Boxvidra.Project.Icons.Full-Version.tar.xz
             cd
@@ -753,7 +753,7 @@ fi
             cd /sdcard/Download
             mkdir Boxvidra
             cd Boxvidra
-            wget -q --show-progress -O Boxvidra.Project.Icons.Orange.tar.xz https://github.com/Boxvidra/BOXVIDRA-PROJECT./releases/download/Boxvidra-Icon-Pack/Boxvidra.Project.Icons.Orange.tar.xz
+            wget -q --show-progress -O Boxvidra.Project.Icons.Orange.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.4/Boxvidra.Project.Icons.Orange.1.tar.xz
             tar -xf Boxvidra.Project.Icons.Orange.tar.xz
             rm Boxvidra.Project.Icons.Orange.tar.xz
             cd
@@ -771,7 +771,7 @@ fi
             cd /sdcard/Download
             mkdir Boxvidra
             cd Boxvidra
-            wget -q --show-progress -O Boxvidra.Project.Icons.Red.tar.xz https://github.com/Boxvidra/BOXVIDRA-PROJECT./releases/download/Boxvidra-Icon-Pack/Boxvidra.Project.Icons.Red.tar.xz
+            wget -q --show-progress -O Boxvidra.Project.Icons.Red.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.4/Boxvidra.Project.Icons.Red.1.tar.xz
             tar -xf Boxvidra.Project.Icons.Red.tar.xz
             rm Boxvidra.Project.Icons.Red.tar.xz
             cd
@@ -789,7 +789,7 @@ fi
             cd /sdcard/Download
             mkdir Boxvidra
             cd Boxvidra
-            wget -q --show-progress -O Boxvidra.Project.Icons.Blue.tar.xz https://github.com/Boxvidra/BOXVIDRA-PROJECT./releases/download/Boxvidra-Icon-Pack/Boxvidra.Project.Icons.Blue.tar.xz
+            wget -q --show-progress -O Boxvidra.Project.Icons.Blue.tar.xz https://github.com/DevrdxDev/Box-N/releases/download/V10.4/Boxvidra.Project.Icons.Blue.1.tar.xz
             tar -xf Boxvidra.Project.Icons.Blue.tar.xz
             rm Boxvidra.Project.Icons.Blue.tar.xz
             cd
