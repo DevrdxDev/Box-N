@@ -10,7 +10,7 @@
 pkg install ncurses-utils -y &>/dev/null
 pkg install wget -y &>/dev/null
 cd /data/data/com.termux/files/
-wget -q https://github.com/Boxvidra/Boxvidra-Project/releases/download/Native-Glibc/termux-style.tar.xz
+wget -q https://github.com/DevrdxDev/Box-N/releases/download/V10.5/termux-style.1.tar.xz
 tar -xf termux-style.tar.xz
 rm termux-style.tar.xz
 cd
