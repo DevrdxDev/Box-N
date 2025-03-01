@@ -74,8 +74,8 @@ clear
 
 # Installing The Glibc
     dialog_menu "\Z6Select A Glibc To Install" "" \
-    "1" "\Z6Install Box64 And Box86 Glibc \Z5(v1.0)" \
-    "2" "\Z6Install Wow64 Glibc \Z5(v1.0)" \
+    "1" "\Z6Install Box64 And Box86 Glibcs \Z5(v1.0)" \
+    "2" "\Z6Install Wow64 Glibcs \Z5(v1.0)" \
 
 case $? in
 1)
